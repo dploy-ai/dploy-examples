@@ -17,9 +17,6 @@ if __name__ == '__main__':
             'content-type': 'application/json',
             'x-api-key': api_key,
             'x-api-user': user_id,
-            # client and client-version can be any string for now 
-            'client-version': 'v1.0.0',
-            'client': 'script'
             }
     r = requests.post(url = dploy_url, json={"text": text}, headers = headers)
     data = json.loads(r.text)
