@@ -25,6 +25,6 @@ if __name__ == '__main__':
             'x-api-key': api_key,
             'x-api-user': user_id,
             }
-    r  =requests.post(url = dploy_url, json={"image": encoded_image, "type": extension}, headers = headers)
+    r = requests.post(url = dploy_url, json={"image": encoded_image, "type": extension}, headers = headers)
     data = json.loads(r.text)
     print(data["detected_face_labels"])
