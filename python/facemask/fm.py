@@ -27,4 +27,9 @@ if __name__ == '__main__':
             }
     r = requests.post(url = dploy_url, json={"image": encoded_image, "type": extension}, headers = headers)
     data = json.loads(r.text)
-    print(data["detected_face_labels"])
+
+    # turn data into an image
+    save_file = file_name.split(".")[0]+"_annotated" + "." + extension
+    with open(save_file, "wb") as f:
+        f.write(base64.b64decode(data['annotated_image']))
+    print("wrote to file: " + save_file)
