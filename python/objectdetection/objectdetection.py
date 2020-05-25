@@ -4,7 +4,7 @@ import base64
 import json
 import requests
 
-dploy_url = "https://2bc20a66-e57f-45fe-bf8d-44e5c96d5bad.users.dev.dinosl1ke1cecream.dploy.ai/predict/"
+dploy_url = "https://491eb558-afdb-4dd9-a09f-dd7c7f32b814.users.dev.dinosl1ke1cecream.dploy.ai/predict/"
 
 if __name__ == '__main__':
     # set up our tokens
