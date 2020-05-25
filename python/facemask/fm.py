@@ -4,7 +4,7 @@ import base64
 import json
 import requests
 
-dploy_url = "https://0be0f9e3-af75-4b10-99d6-5c5ada3ecd81.users.dev.dinosl1ke1cecream.dploy.ai/"
+dploy_url = "https://0be0f9e3-af75-4b10-99d6-5c5ada3ecd81.users.dploy.ai/"
 
 if __name__ == '__main__':
     # set up our tokens

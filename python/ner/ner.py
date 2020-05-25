@@ -4,7 +4,7 @@ import json
 
 
 # endpoint to query - you can get this on the market place of dploy.ai
-dploy_url = "https://8b904ca6-27dd-45f7-b6ff-c98d5adfacfc.users.dev.dinosl1ke1cecream.dploy.ai/"
+dploy_url = "https://aabe6e56-0fa0-44c6-8808-bed76b3413dc.users.dploy.ai/predict/"
 
 if __name__ == '__main__':
     # set your environment variables for storing the api key and user id token. 
