@@ -4,7 +4,7 @@ import base64
 import json
 import requests
 
-dploy_url = "https://0be0f9e3-af75-4b10-99d6-5c5ada3ecd81.users.dploy.ai/"
+dploy_url = "https://3345423f-8bbf-4215-8004-215a3da67b60.users.dploy.ai/"
 
 if __name__ == '__main__':
     # set up our tokens
@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     # encode our image as base64
     with open(file_name, "rb") as img:
-        encoded_image = base64.b64encode(img.read())
+        encoded_image = base64.b64encode(img.read()).decode('utf-8')
 
     # set headers to include tokens (get them at api.dploy.ai)
     headers = {
