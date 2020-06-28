@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     # parse our command-line argument
     file_name = (sys.argv[-1])
-    extension = file_name.split(".")[1]
+    extension = file_name.split(".")[-1]
 
     # encode our image as base64
     with open(file_name, "rb") as img:
